@@ -8,6 +8,11 @@ import css from '../images/css.png';
 import react from '../images/react.png';
 import express from '../images/express.png';
 import python from '../images/python.png';
+import php from '../images/php.png';
+import github from '../images/github.png';
+import bootstrap from '../images/bootstrap.png';
+import mongodb from '../images/mongodb.png';
+import nodejs from '../images/nodejs.png';
 
 const Services = () => {
     const serviceList = [
@@ -41,6 +46,31 @@ const Services = () => {
         name: "Python",
         imageUrl: python
        },
+       {
+        id:1,
+        name: "php",
+        imageUrl: php
+       },
+       {
+        id:1,
+        name: "github",
+        imageUrl: github
+       },
+       {
+        id:1,
+        name: "bootstrap",
+        imageUrl: bootstrap
+       },
+       {
+        id:1,
+        name: "mongodb",
+        imageUrl: mongodb
+       },
+       {
+        id:1,
+        name: "nodejs",
+        imageUrl: nodejs
+       }
        ];
        return (
         <motion.div

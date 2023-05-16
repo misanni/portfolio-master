@@ -11,22 +11,22 @@ import p4 from '../images/p4.png';
 const Projects = () => {
    const ProjectList = [{
     id:1,
-    name: "Student Database App",
-    technology:['React,', ' ' ,'nodejs'],
+    name: "Student Database",
+    technology:['HTML, ', 'CSS, ', 'JavaScript, ','NodeJS, ','Express, ', 'EJS, ', 'MondoDB '],
     imageUrl: p2,
     projectUrl:'https://project-2-1940.onrender.com/'
    },
    {
     id:1,
     name: "Bookmark App",
-    technology:["php"],
+    technology:['HTML, ', 'CSS, ', 'JavaScript, ','NodeJS, ','React, ', 'Express, ', 'MondoDB ',],
     imageUrl: p3,
     projectUrl:'https://melodious-cupcake-9295ad.netlify.app/'
    },
    {
     id:1,
-    name: "interDecor Blog App",
-    technology:["html"],
+    name: "Int'Decor Blog",
+    technology:['HTML, ', 'CSS, ', 'JavaScript, ','NodeJS, ','React, ', 'Express, ', 'MondoDB '],
     imageUrl: p4,
     projectUrl:'https://illustrious-tanuki-5c7ded.netlify.app/#/'
    }
@@ -34,7 +34,7 @@ const Projects = () => {
    {
     id:1,
     name: "Book App",
-    technology:["html"],
+    technology:['HTML, ', 'CSS, ', 'JavaScript, ','NodeJS, ','React, ', 'Python, ', 'MondoDB ', 'Material UI, ', 'Framer Motion, '],
     imageUrl: p1,
     projectUrl:'https://super-hummingbird-e18ad8.netlify.app/#/'
    }
@@ -65,7 +65,7 @@ return (
               }}
               key={item.id}
             >
-              <Card>
+              <Card class='prjct'>
                 <Card.Img variant="top" src={item.imageUrl} />
                 <Card.Body>
                   <Card.Title><a href= {item.projectUrl}target='_blank' rel="noreferrer" ><h3>{item.name} </h3></a>

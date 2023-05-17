@@ -48,27 +48,27 @@ const Services = () => {
        },
        {
         id:1,
-        name: "php",
+        name: "PHP",
         imageUrl: php
        },
        {
         id:1,
-        name: "github",
+        name: "Github",
         imageUrl: github
        },
        {
         id:1,
-        name: "bootstrap",
+        name: "Bootstrap",
         imageUrl: bootstrap
        },
        {
         id:1,
-        name: "mongodb",
+        name: "MongoDB",
         imageUrl: mongodb
        },
        {
         id:1,
-        name: "nodejs",
+        name: "NodeJS",
         imageUrl: nodejs
        }
        ];
